@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Thêm báo"
+        android:icon="@drawable/ic_note_add_white_24dp"
+        android:id="@+id/addBao">
+        <!--<menu>-->
+            <!--<item-->
+                <!--app:showAsAction="never"-->
+                <!--android:title="Kênh 14">-->
+            <!--</item>-->
+            <!--<item-->
+                <!--app:showAsAction="never"-->
+                <!--android:title="24h">-->
+            <!--</item>-->
+            <!--<item-->
+                <!--app:showAsAction="never"-->
+                <!--android:title="Dân trí">-->
+            <!--</item>-->
+        <!--</menu>-->
+    </item>
+    <item
+        android:title="Sửa báo đã chọn"
+        android:icon="@drawable/ic_content_copy_white_24dp"
+        android:id="@+id/suabao">
+    </item>
+    <item
+        android:icon="@drawable/ic_format_size_white_24dp"
+        android:title="Chọn kích thước chữ"
+        android:id="@+id/kichthuoc">
+    </item>
+    <item
+        android:title="Báo Khác">
+        <menu>
+            <item
+                android:title="Kênh 14"
+                android:id="@+id/kenh14">
+            </item>
+            <item android:id="@+id/soha"
+                android:title="SoHa New">
+            </item>
+            <item android:title="genK"
+                 android:id="@+id/genk">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="Pega">
+        <menu>
+            <item android:title="Hướng dẫn"
+                android:id="@+id/huongdan"
+                android:icon="@drawable/ic_help_white_24dp">
+            </item>
+        </menu>
+    </item>
+
+</menu>
